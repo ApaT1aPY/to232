@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.main_container {
+    padding: 30px;
+}
+
+.main_container_text {
+    padding: 30px;
+    text-align: center;
+}
+
+.main_container_text h1 {
+    font-size: 20px;
+}
+
+.main_container_schedule {
+    padding: 30px;
+}
+
+details {
+    font-size: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    padding: 20px 100px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.schedule5 h1 {
+    font-size: 23px;
+}
+
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+
+.logo {
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar p {
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .5s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.footer {
+    padding: 15px;
+    right: 0;
+    bottom: 0;
+    width: 99%
+}
+
+.footer a {
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+#vk_groups {
+    margin-left: auto;
+    margin-right: auto;
+}
